@@ -1,0 +1,128 @@
+html,body {
+    background-color:white;
+}
+
+#menu-header { 
+
+    height: 100vh;
+    display:flex-start;
+    justify-content:flex-end;
+    align-self: space-between;
+    background-color: tan;
+    font-size: 20px;
+    place-content: 10px;
+    padding: 1em;
+    
+}
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items:flex-start;
+    margin: 1em;
+    min-width: 20%;
+    padding: 1em;
+    margin-bottom: 1rem;
+     
+ 
+}
+ul{
+    list-style-type: none;
+    margin: 1em;
+    padding: 20px;
+  
+    
+
+}
+.box{
+    background-color: thistle;
+    border: 5px;
+
+}
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 5px;
+   
+  }
+  .container-1 input#search{
+    width: 300px;
+    height: 50px;
+    background: #31384d;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #1171d1;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+    margin-left: 5px;
+  }
+
+.message {
+    color: rgb(2, 2, 2);
+    background-color: rgb(230, 223, 223);
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 0.2em;
+   padding-left: 15px;
+   padding-top: 15px;
+   padding-right: 5px;
+   margin-right: 5px;
+   
+   
+}
+.message:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+#preview{
+    background-color: white;
+    min-width: 20%;
+}
+
+button {
+    display: inline-block;
+        background-color: #1482ad;
+        border-radius: 6px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+        width: 90px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+       
+      
+}
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+#email-msg {
+    background-color: whitesmoke;
+}
+#Web-Icons {
+align-items: flex-end;
+justify-content: right;
+}
+#reply-btn{
+    float: right;
+
+} 
